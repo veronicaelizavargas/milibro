@@ -1,0 +1,85 @@
+body{
+    background: #f1f1f1;
+}
+
+.barra{
+    background: #00adef;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.dropdown-menu {
+    margin: 17px;
+    background: #262a34;
+    color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0,  568);
+}
+
+.menu.perfil {
+    color: white;
+}
+
+.menu.perfil:focus{
+    background: #23ae6b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.cerrar:hover{
+    background-color: rgba(206, 65, 22, 0.877);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);  
+}
+
+.user{
+    font-size: 125px;
+}
+
+
+/*BARRA LATERAL*/
+
+.barra-lateral{
+    background-color: #23ae6b;
+    color: beige;
+    min-width: 250px;
+    min-height: 100vh;
+}
+
+.barra-lateral a{
+    color: aqua;
+}
+
+
+/*ESTILO MENU*/
+
+.barra-lateral .menu a{
+    display: block;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border-bottom: 1px rgba(255, 255, 255, .1);
+}
+
+.barra-lateral .menu a:hover {
+    background-color: #003c5d;
+    text-decoration: none;
+}
+
+.active{
+    background: #23ae6b;
+}
+
+.barra-lateral  .menu {
+    border-top: 5px #fff solid;
+}
+
+.barra-lateral  .menu a i {
+    margin-right: 20px;
+}
+
+/*MAIN*/
+
+.main{
+    padding-top: 40px;
+    
+}
+
